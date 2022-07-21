@@ -19,11 +19,13 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         padding: 15,
         borderRadius:10,
+        borderColor: '#710193',
+        borderWidth:1,
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
         marginBottom: 20,
-
+        elevation: 10,
     },
    //----------------------------------------------------------------------
     itemLeft:{
@@ -37,19 +39,21 @@ const styles = StyleSheet.create({
         width:24,
         height:24,
         marginRight:10,
-        backgroundColor: '#55BCF6',
+        backgroundColor: '#710193',
         opacity:0.4,
         borderRadius:5
     },
     //----------------------------------------------------------------------
     itemText:{
-        maxWidth:'80%'
+        maxWidth:'80%',
+        color: '#311432',
+        fontWeight: 'bold',
     },
     //----------------------------------------------------------------------
     circular:{
         width:15,
         height: 15,
-        borderColor:'#55BCF6',
+        borderColor:'#710193',
         borderWidth: 2,
         borderRadius:5
     },
